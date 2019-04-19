@@ -9360,6 +9360,12 @@ button.picker__close:focus {
     padding: 10px 20px;
     text-align: center
 }
+.button {
+    font-weight: 300;
+    padding: 10px 10px;
+  
+    text-align: left
+}
 
 .pricing-table .pricing-features .pricing-feature i {
     margin-right: 18px
