@@ -2131,6 +2131,10 @@
 .white-text {
     color: #fff !important
 }
+.dark-text {
+    color: rgb(37, 37, 37) !important
+}
+
 
 .transparent {
     background-color: transparent !important
@@ -2355,7 +2359,11 @@ table {
 
 td,
 th {
-    padding: 0
+    padding: 0;
+}
+table tr td .center{
+    text-align: center
+
 }
 
 html {
@@ -11326,6 +11334,9 @@ button:focus {
 
 i {
     color: #f4b41a
+}
+div a i{
+    color: #000;
 }
 
 .primary-color {
