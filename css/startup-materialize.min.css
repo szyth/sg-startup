@@ -9318,11 +9318,18 @@ button.picker__close:focus {
 }
 
 .pricing-table.featured {
-    margin-top: 0
+    margin-top: 0;
+    padding-bottom: 7%
 }
 
 .pricing-table.featured .pricing-header {
     padding: 45px 0
+}
+
+.pricing-table .amount{
+    font-weight: 1000;
+    text-align: center;
+    font-weight: bold
 }
 
 .pricing-table .pricing-header {
@@ -9346,14 +9353,15 @@ button.picker__close:focus {
 
 .pricing-table .pricing-header .price {
     font-size: 60px;
-    line-height: 60px
+    line-height: 60px;
+    padding-bottom: 5%
 }
 
 .pricing-table .pricing-header .price .currency,
 .pricing-table .pricing-header .price .cents {
     font-weight: 300;
     margin: 0 -10px;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 42px;
     vertical-align: text-top
 }
@@ -9364,6 +9372,11 @@ button.picker__close:focus {
 }
 
 .pricing-table .pricing-features .pricing-feature {
+    font-weight: 300;
+    padding: 10px 20px;
+    text-align: center
+}
+.pricing-table .pricing-features .text {
     font-weight: 300;
     padding: 10px 20px;
     text-align: center
