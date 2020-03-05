@@ -24,15 +24,16 @@
       href="images/favicon/safari-pinned-tab.svg"
       color="#5bbad5"
     />
+    <meta name="msapplication-TileColor" content="#1270ae" />
+    <meta name="theme-color" content="#1b5b86" />
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Pricing - ScrapeGoat</title>
+    <title>ScrapeGoat</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="css/startup-materialize.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="css/sg.css" />
     <!-- Material Icons -->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -40,35 +41,54 @@
     />
   </head>
 
-<<<<<<< HEAD
   <body>
-    <!-- Navbar -->
-    <nav class="navbar nav-colored" id="mynav">
-      <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo clip-img ht" id="a-center">
-          <div>
-            <img
-              id="img-center"
-              class="img-resize img-scroll-ht"
-              src="images/logo-white@0,25x.png"
-            />
+    <section>
+      <ul id="slide-out" class="side-nav">
+        <li>
+          <div class="user-view">
+            <div class="background">
+              <img src="images/logo-final-black.png" />
+            </div>
+            <!-- <a href="#!user"
+              ><img class="circle" src="images/goat.icon4-10.png"
+            /></a>
+            <a href="#!name"><span class="white-text name">John Doe</span></a>
+            <a href="#!email"
+              ><span class="white-text email">jdandturk@gmail.com</span></a
+            > -->
           </div>
-        </a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"
-          ><i class="material-icons">menu</i></a
-        >
-        <ul class="right hide-on-med-and-down">
-          <li><a class="active" href="pricing.html">Pricing</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li><a class="active" href="pricing.html">Pricing</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
+        </li>
+        <li>
+          <a href="pricing.html"><i class="material-icons">cloud</i>Pricing</a>
+        </li>
+        <li><a href="team.html">Team</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Subheader</a></li>
+        <li>
+          <a class="waves-effect" href="contact.html">Contact Us!</a>
+        </li>
+      </ul>
+      <div class="navbar-fixed">
+        <nav class="transparent z-depth-0" id="mynav">
+          <div class="nav-wrapper">
+            <a
+              href="#"
+              data-activates="slide-out"
+              class="brand-logo clip-img show-on-large"
+              id="a-center"
+            >
+              <div>
+                <img
+                  id="img-center"
+                  class="img-resize"
+                  src="images/logo-final-white.png"
+                />
+              </div>
+            </a>
+          </div>
+        </nav>
       </div>
-    </nav>
+    </section>
 
     <div class="title-transition section valign-wrapper">
       <div class="row valign">
@@ -140,98 +160,8 @@
                             <span class="dollars"> 7,699</span>
                           </div>
                         </div>
-=======
-  <!-- Material Icons -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
-
-<body>
-
-  <!-- Navbar -->
-  <nav class="navbar custom">
-    <div class="nav-wrapper">
-      <a href="index.html" class="brand-logo"><img style="margin-top:8px" src="images/goat.icon2-10.png" /></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="team.html">Team</a></li>
-        <li><a class="active" href="pricing.html">Pricing</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <!-- <li><a href="#">Buy Now!</a></li> -->
-      </ul>
-
-      <a href="#" data-activates="slide-out" class="button-collapse right"><i
-          class="material-icons white-text">menu</i></a>
-    </div>
-  </nav>
-  <ul id="slide-out" class="side-nav">
-    <li class="no-padding">
-      <ul class="collapsible collapsible-accordion">
-        <li class="bold">
-          <a class="collapsible-header waves-effect waves-teal active">Pages</a>
-          <div class="collapsible-body">
-            <ul>
-              <li><a class="waves-effect waves-teal" href="team.html">Team</a></li>
-              <li><a class="waves-effect waves-teal" href="pricing.html">Pricing</a></li>
-              <li><a class="waves-effect waves-teal" href="contact.html">Contact Us</a></li>
-              <!-- <li><a class="waves-effect waves-teal" href="#">Buy Now!</a></li> -->
-          </div>
-        </li>
-      </ul>
-    </li>
-
-  </ul>
-
-  <div class="title-transition section valign-wrapper">
-    <div class="row valign">
-      <div class="col s8 offset-s2 m6 offset-m3 blog-title fade-transition">
-        <h1>Pricing</h1>
-        <!-- <span class="date">April 19, 2019</span> -->
-      </div>
-    </div>
-  </div>
-  <div class="section  full-height">
-    <div class="whitee">
-      <div class="row valign">
-        <div class="col s12 m10 offset-m1 team">
-          <div class="row">
-
-            <div class="col s12  center-on-small-only">
-              <h3 class="section-title">Website Development</h3>
-            </div>
-          </div>
-          <div class="section whiteee valign-wrapper">
-            <div class="row valign">
-              <div class="col s12 m10 offset-m1">
-                <div class="row">
-                  <div class="col s12 m4">
-                    <div class="pricing-table">
-                      <div class="pricing-header">
-                        <i class="icon-paper-plane"></i>
-                        <h4>Basic</h4>
-
->>>>>>> ff975f826dda12d107192d54c2bc62b68cc02441
                       </div>
-                      <ul class="pricing-features">
-                        <li class="pricing-feature"><i class="icon-accept"></i>Upto 5 Webpages</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Static Website</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Template Design</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Single Form</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Stock Images</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Single Mail Account</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Annual Domain Charges</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Annual Hosting Charges</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>24x7 Support</li>
-                        <li class="pricing-feature disabled"><i class="icon-close"></i>Dedicated Content Writer</li>
-                        <li class="pricing-feature disabled"><i class="icon-close"></i>Dedicated Photographer</li>
-                      </ul>
-                      <div class="pricing-header">
-                        <div class="price">
-                          <span class="currency" style="padding: 8px">&#8377; </span>
-                          <span class="dollars"> 7,699</span>
-                        </div>
-                      </div>
-
                     </div>
-<<<<<<< HEAD
 
                     <div class="col s12 m4">
                       <div class="pricing-table featured">
@@ -239,21 +169,10 @@
                           <i class="icon-plane"></i>
                           <h4>Standard</h4>
                           <!-- <div class="price">
-=======
-                  </div>
-
-                  <div class="col s12 m4">
-                    <div class="pricing-table featured">
-                      <div class="pricing-header">
-                        <i class="icon-plane"></i>
-                        <h4>Standard</h4>
-                        <!-- <div class="price">
->>>>>>> ff975f826dda12d107192d54c2bc62b68cc02441
                               <span class="currency">$</span>
                               <span class="dollars">59</span>
                               <span class="cents">99</span>
                             </div> -->
-<<<<<<< HEAD
                         </div>
                         <ul class="pricing-features">
                           <li class="pricing-feature">
@@ -311,46 +230,10 @@
                           <i class="icon-rocket"></i>
                           <h4>Premium</h4>
                           <!-- <div class="price">
-=======
-                      </div>
-                      <ul class="pricing-features">
-                        <li class="pricing-feature"><i class="icon-accept"></i>Upto 10 Webpages</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Dynamic/Static Website</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Custom Design</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Upto 5 Forms</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Dedicated Content Writer</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Dedicated Photographer*</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>1 Hour of Client Training</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Upto 5 Mail Accounts</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>24x7 Support</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Annual Domain Charges</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Annual Hosting Charges</li>
-                        <!-- <li class="pricing-feature"><i class="icon-accept"></i>Pro and above.</li>
-                            <li class="pricing-feature disabled"><i class="icon-close"></i>Enterprise only.</li>
-                            <li class="pricing-feature disabled"><i class="icon-close"></i>Enterprise only.</li>
-                            <li class="pricing-feature disabled"><i class="icon-close"></i>Enterprise only.</li> -->
-                      </ul>
-                      <div class="pricing-header">
-                        <div class="price">
-                          <span class="currency" style="padding: 8px">&#8377; </span>
-                          <span class="dollars"> 12,999</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col s12 m4">
-                    <div class="pricing-table">
-                      <div class="pricing-header">
-                        <i class="icon-rocket"></i>
-                        <h4>Premium</h4>
-                        <!-- <div class="price">
->>>>>>> ff975f826dda12d107192d54c2bc62b68cc02441
                               <span class="currency">$</span>
                               <span class="dollars">299</span>
                               <span class="cents">99</span>
                             </div> -->
-<<<<<<< HEAD
                         </div>
                         <ul class="pricing-features">
                           <li class="pricing-feature">
@@ -458,92 +341,10 @@
                           <i class="icon-paper-plane"></i>
                           <h4>Micro</h4>
                           <!-- <div class="price">
-=======
-                      </div>
-                      <ul class="pricing-features">
-                        <li class="pricing-feature"><i class="icon-accept"></i>Unlimited Webpages</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Dynamic/Static Website</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Custom Design</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Upto 10 Forms</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Dedicated Content Writer</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Dedicated Photographer</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>3 Hours of Client Training</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Upto 5 Mail Accounts</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>24x7 Support</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Annual Domain Charges</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Annual Hosting Charges</li>
-                      </ul>
-                      <div class="pricing-header">
-                        <div class="price">
-                          <!-- <span class="currency" style="padding: 8px">&#8377; </span> -->
-                          <span class="currency">*</span>
-                          <span class="dollars">Call Us</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class=" button">
-                  <a href="contact.html" target="_blank" class="waves-effect waves-light btn-large">Call for Quote</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="row">
-            <div class="col s12">
-              <div class="divider"></div>
-            </div>
-            <div class="col s12  center-on-small-only">
-              <h3 class="section-title">Graphic Designing</h3>
-            </div>
-          </div>
-          <div class="section whiteee valign-wrapper">
-            <div class="row valign">
-              <div class="col s12 m10 offset-m1">
-                <div class="row">
-                  <div class="col s12 m4">
-                    <div class="pricing-table">
-                      <div class="pricing-header">
-                        <i class="icon-rocket"></i>
-                        <h4>Nano</h4>
-                      </div>
-                      <ul class="pricing-features">
-                        <li class="text">
-                          <h4>Design anything you want with this hourly pack!</h4>
-                        </li>
-                        <li class="text"></li>
-                        <li class="text">
-                          <h4>Suitable for:</h4>
-                        </li>
-                        <li class="pricing-feature">Poster designs</li>
-                        <li class="pricing-feature">Menu Designs</li>
-                        <li class="pricing-feature">Visiting Cards</li>
-                        <li class="pricing-feature">InfoGraphics</li>
-                      </ul>
-                      <div class="pricing-header">
-                        <div class="price">
-                          <span class="currency" style="padding: 8px">&#8377; </span>
-                          <span class="dollars"> 299</span>
-                          <span class="cents">per hour</span>
-
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col s12 m4">
-                    <div class="pricing-table">
-                      <div class="pricing-header">
-                        <i class="icon-paper-plane"></i>
-                        <h4>Micro</h4>
-                        <!-- <div class="price">
->>>>>>> ff975f826dda12d107192d54c2bc62b68cc02441
                               <span class="currency">$</span>
                               <span class="dollars">9</span>
                               <span class="cents">99</span>
                             </div> -->
-<<<<<<< HEAD
                         </div>
                         <ul class="pricing-features">
                           <li class="pricing-feature">
@@ -592,40 +393,10 @@
                           <i class="icon-plane"></i>
                           <h4>Macro</h4>
                           <!-- <div class="price">
-=======
-                      </div>
-                      <ul class="pricing-features">
-                        <li class="pricing-feature"><i class="icon-accept"></i>1 Logo Design</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Upto 2 Visiting Cards (Single sided)</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Editable Files Provided</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Facebook Cover</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Twitter Cover</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Upto 2 Design Revisions</li>
-                        <li class="pricing-feature disabled"><i class="icon-close"></i>Brochure Design</li>
-                        <li class="pricing-feature disabled"><i class="icon-close"></i>Catalogue Design</li>
-                        <li class="pricing-feature disabled"><i class="icon-close"></i>Office Stationery</li>
-                      </ul>
-                      <div class="pricing-header">
-                        <div class="price">
-                          <span class="currency" style="padding: 8px">&#8377; </span>
-                          <span class="dollars"> 1,499</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col s12 m4">
-                    <div class="pricing-table">
-                      <div class="pricing-header">
-                        <i class="icon-plane"></i>
-                        <h4>Macro</h4>
-                        <!-- <div class="price">
->>>>>>> ff975f826dda12d107192d54c2bc62b68cc02441
                               <span class="currency">$</span>
                               <span class="dollars">59</span>
                               <span class="cents">99</span>
                             </div> -->
-<<<<<<< HEAD
                         </div>
                         <ul class="pricing-features">
                           <li class="pricing-feature">
@@ -664,29 +435,10 @@
                             </span>
                             <span class="dollars"> 3,499</span>
                           </div>
-=======
-                      </div>
-                      <ul class="pricing-features">
-                        <li class="pricing-feature"><i class="icon-accept"></i>1 Logo Design</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Upto 5 Visiting Cards (Both sided)</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Editable Files Provided</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Facebook Cover</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Twitter Cover</li>
-                        <li class="pricing-feature "><i class="icon-accept"></i>Brochure Design</li>
-                        <li class="pricing-feature "><i class="icon-accept"></i>Catalogue Design</li>
-                        <li class="pricing-feature "><i class="icon-accept"></i>Upto 5 Design Revisions</li>
-                        <li class="pricing-feature "><i class="icon-accept"></i>Office Stationery</li>
-                      </ul>
-                      <div class="pricing-header">
-                        <div class="price">
-                          <span class="currency" style="padding: 8px">&#8377; </span>
-                          <span class="dollars"> 3,499</span>
->>>>>>> ff975f826dda12d107192d54c2bc62b68cc02441
                         </div>
                       </div>
                     </div>
                   </div>
-<<<<<<< HEAD
                   <div class=" button">
                     <a
                       href="contact.html"
@@ -771,205 +523,30 @@
                             <span class="dollars"> 599</span>
                             <span class="cents">per month</span>
                           </div>
-=======
-
-
-
-                </div>
-                <div class=" button">
-                  <a href="contact.html" target="_blank" class="waves-effect waves-light btn-large">Call for Quote</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="row">
-            <div class="col s12">
-              <div class="divider"></div>
-            </div>
-
-            <div class="col s12  center-on-small-only">
-              <h3 class="section-title">Social Media Marketing</h3>
-            </div>
-          </div>
-          <div class="section whiteee valign-wrapper">
-            <div class="row valign">
-              <div class="col s12 m11 offset-m2">
-                <div class="row">
-
-                  <div class="col s12 m4">
-                    <div class="pricing-table featured">
-                      <div class="pricing-header">
-                        <i class="icon-plane"></i>
-                        <h4>Alpha</h4>
-
-                      </div>
-                      <ul class="pricing-features">
-                        <li class="pricing-feature"><i class="icon-accept"></i>8 posts (2 posts per week)</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Facebook Account Handling</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Instagram Account Handling</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Comment Handling</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Message Handling</li>
-
-                      </ul>
-                      <div class="pricing-header">
-                        <div class="price">
-                          <span class="currency" style="padding: 8px">&#8377; </span>
-                          <span class="dollars"> 4,999</span>
-                          <span class="cents">per month</span>
-
->>>>>>> ff975f826dda12d107192d54c2bc62b68cc02441
                         </div>
                       </div>
                     </div>
                   </div>
-<<<<<<< HEAD
-=======
-
-                  <div class="col s12 m4">
-                    <div class="pricing-table">
-                      <div class="pricing-header">
-                        <i class="icon-rocket"></i>
-                        <h4>Alpha Plus</h4>
-
-                      </div>
-                      <ul class="pricing-features">
-                        <li class="pricing-feature"><h6 style="font-style: italic">*Prerequisite Alpha Plan</h6></li>
-                        <li class="pricing-feature"></li>
-
-                        <li class="pricing-feature"><i class="icon-accept"></i>Additional 4 posts</li>
-                        <li class="pricing-feature"><i class="icon-accept"></i>Dedicated Content Writer</li>
-
-
-                      </ul>
-                      <div class="pricing-header">
-                        <div class="price">
-                          <span class="currency" style="padding: 8px">&#8377; </span>
-                          <span class="dollars"> 599</span>
-                          <span class="cents">per month</span>
-
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
->>>>>>> ff975f826dda12d107192d54c2bc62b68cc02441
                 </div>
               </div>
             </div>
           </div>
         </div>
-<<<<<<< HEAD
       </div>
     </div>
-
-    <!-- Footer -->
-    <footer class="page-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col s6 m3">
-            <img
-              class="materialize-logo"
-              src="images/goat.icon4-10.png"
-              alt=""
-            />
-            <p>Made with love by ScrapeGoat.</p>
-          </div>
-          <div class="col s6 m3">
-            <h5>About</h5>
-            <ul>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="pricing.html">Pricing</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col s6 m3">
-            <h5>Connect</h5>
-            <ul>
-              <li><a href="contact.html">Community</a></li>
-              <li><a href="contact.html">Subscribe</a></li>
-              <li><a href="contact.html">Email</a></li>
-            </ul>
-          </div>
-          <div class="col s6 m3">
-            <h5>Contact</h5>
-            <ul>
-              <li>
-                <a href="https://www.facebook.com/scrapegoatinc" target="_blank"
-                  >Facebook</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/scrapegoatinc"
-                  target="_blank"
-                  >Instagram</a
-                >
-              </li>
-              <li>
-                <a href="https://www.twitter.com/scrapegoatinc" target="_blank"
-                  >Twitter</a
-                >
-              </li>
-            </ul>
-          </div>
-=======
-
-      </div>
-    </div>
-  </div>
-
-  </div>
-
-  <!-- Footer -->
-  <footer class="page-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col s6 m3">
-          <img class="materialize-logo" src="images/goat.icon4-10.png" alt="">
-          <p>Made with love by ScrapeGoat.</p>
-        </div>
-        <div class="col s6 m3">
-          <h5>About</h5>
-          <ul>
-            <li><a href="team.html">Team</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col s6 m3">
-          <h5>Connect</h5>
-          <ul>
-            <li><a href="contact.html">Community</a></li>
-            <li><a href="contact.html">Subscribe</a></li>
-            <li><a href="contact.html">Email</a></li>
-          </ul>
-        </div>
-        <div class="col s6 m3">
-          <h5>Contact</h5>
-          <ul>
-            <li><a href="https://www.facebook.com/scrapegoatinc" target="_blank">Facebook</a></li>
-            <li><a href="https://www.instagram.com/scrapegoatinc" target="_blank">Instagram</a></li>
-            <li><a href="https://www.twitter.com/scrapegoatinc" target="_blank">Twitter</a></li>
-          </ul>
->>>>>>> ff975f826dda12d107192d54c2bc62b68cc02441
-        </div>
-      </div>
-    </footer>
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="js/materialize.min.js"></script>
-
-    <!-- External libraries -->
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/TweenMax.min.js"></script>
-    <script src="js/ScrollMagic.min.js"></script>
-    <script src="js/animation.gsap.min.js"></script>
-
-    <!-- Initialization script -->
-    <script src="js/startup.js"></script>
-    <script src="js/init.js"></script>
   </body>
+
+  <script src="./js/sg.js"></script>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+  ></script>
+  <script type="text/javascript" src="./js/materialize.min.js"></script>
+  <script>
+    $("#a-center").sideNav({
+      menuWidth: 300, // Default is 300
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true
+    });
+  </script>
 </html>

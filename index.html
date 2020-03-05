@@ -32,12 +32,8 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="css/startup-materialize.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- 1de9c3  #f4b41a; -->
-    <!-- fff 143d59 -->
-    <!-- 10a98d 10344d -->
-    <!-- 42c4ac 1de9c3 -->
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="css/sg.css" />
     <!-- Material Icons -->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -47,31 +43,53 @@
 
   <body>
     <section>
-      <nav class="navbar" id="mynav">
-        <div class="nav-wrapper">
-          <a href="#!" class="brand-logo clip-img" id="a-center">
-            <div>
-              <img id="img-center" class="img-resize" src="images/logo-final-white.png"/>
+      <ul id="slide-out" class="side-nav">
+        <li>
+          <div class="user-view">
+            <div class="background">
+              <img src="images/logo-final-black.png" />
             </div>
-          </a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"
-            ><i class="material-icons">menu</i></a
-          >
-          <ul class="right hide-on-med-and-down">
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="team.html">Team</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-          <ul class="side-nav" id="mobile-demo">
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="team.html">Team</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
+            <!-- <a href="#!user"
+              ><img class="circle" src="images/goat.icon4-10.png"
+            /></a>
+            <a href="#!name"><span class="white-text name">John Doe</span></a>
+            <a href="#!email"
+              ><span class="white-text email">jdandturk@gmail.com</span></a
+            > -->
+          </div>
+        </li>
+        <li>
+          <a href="pricing.html"><i class="material-icons">cloud</i>Pricing</a>
+        </li>
+        <li><a href="team.html">Team</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Subheader</a></li>
+        <li>
+          <a class="waves-effect" href="contact.html">Contact Us!</a>
+        </li>
+      </ul>
+      <div class="navbar-fixed">
+        <nav class="transparent z-depth-0" id="mynav">
+          <div class="nav-wrapper">
+            <a
+              href="#"
+              data-activates="slide-out"
+              class="brand-logo clip-img show-on-large"
+              id="a-center"
+            >
+              <div>
+                <img
+                  id="img-center"
+                  class="img-resize"
+                  src="images/logo-final-white.png"
+                />
+              </div>
+            </a>
+          </div>
+        </nav>
+      </div>
     </section>
 
-<<<<<<< HEAD
     <div class="section valign-wrapper">
       <div class="row valign">
         <div class="col s12 m10 offset-m1">
@@ -135,138 +153,6 @@
                   </div>
                   <h4>Graphics Designing</h4>
                   <!-- <div class="price">
-=======
-<body>
-
-	<!-- Navbar -->
-	<nav class="navbar dark absolute">
-		<div class="nav-wrapper">
-			<a href="index.html" class="brand-logo"><img style="margin-top:8px" src="images/goat.icon2-10.png" /></a>
-			<ul id="nav-mobile" class="right hide-on-med-and-down">
-				<li><a href="team.html">Team</a></li>
-				<li><a href="pricing.html">Pricing</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-				<!-- <li><a href="#">Buy Now!</a></li> -->
-			</ul>
-
-			<a href="#" data-activates="slide-out" class="button-collapse right"><i
-					class="material-icons white-text">menu</i></a>
-		</div>
-	</nav>
-	<ul id="slide-out" class="side-nav">
-		<li class="no-padding">
-			<ul class="collapsible collapsible-accordion">
-				<li class="bold">
-					<a class="collapsible-header waves-effect waves-teal active">Pages</a>
-					<div class="collapsible-body">
-						<ul>
-							<li><a class="waves-effect waves-teal" href="team.html">Team</a></li>
-							<li><a class="waves-effect waves-teal" href="pricing.html">Pricing</a></li>
-							<li><a class="waves-effect waves-teal" href="contact.html">Contact Us</a></li>
-							<!-- <li><a class="waves-effect waves-teal" href="#">Buy Now!</a></li> -->
-					</div>
-				</li>
-			</ul>
-		</li>
-
-	</ul>
-
-	<div class="header full-height horizontal-half-transition">
-		<div class="background">
-			<img src="images/bg.jpg" alt="">
-		</div>
-		<div class="phone-preview-sizer">
-			<div class="phone-preview"></div>
-			<div class="image-container active" style="background-image: url(images/webdev-cover.png)"></div>
-			<div class="image-container" style="background-image:url(images/tree.PNG)"></div>
-			<div class="image-container" style="background-image:url(images/startup-cover.png)"></div>
-		</div>
-		<div class="horizontal-half-wrapper right-side active">
-			<div class="header-background white"></div>
-			<div class="header-wrapper row valign-wrapper">
-				<div class="col s12 m8 offset-m2 valign">
-					<h1>Website Devs!</h1>
-					<span class="tagline">Show off your business in a whole new way.</span>
-					<button class="read-more"><i class="icon-caret-down"></i></button>
-				</div>
-			</div>
-		</div>
-		<div class="horizontal-half-wrapper">
-			<div class="header-background white"></div>
-			<div class="header-wrapper row valign-wrapper">
-				<div class="col s12 m8 offset-m2 valign">
-					<h1>Graphic Designing!</h1>
-					<span class="tagline">Professionally trained staff.</span>
-					<button class="read-more"><i class="icon-caret-down"></i></button>
-				</div>
-			</div>
-		</div>
-		<div class="horizontal-half-wrapper right-side">
-			<div class="header-background white"></div>
-			<div class="header-wrapper row valign-wrapper">
-				<div class="col s12 m8 offset-m2 valign">
-					<h1>Social Media handling!</h1>
-					<span class="tagline">Because your company needs an Online Presence.</span>
-					<button class="read-more"><i class="icon-caret-down"></i></button>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="section valign-wrapper">
-		<div class="row valign">
-			<div class="col s12 m10 offset-m1">
-				<div class="row">
-					<div class="col s12">
-						<h2 class="section-title">Features</h2>
-					</div>
-					<div class="col s12 m6 l4">
-						<h4><i class="icon-light-bulb"></i></h4>
-						<p class="caption">Manage and Grow Your Business Online.</p>
-					</div>
-					<div class="col s12 m6 l4">
-						<h4><i class="icon-bolt"></i></h4>
-						<p class="caption">Stunning Templates: Choose from over 50+ designer made templates for every
-							business.</p>
-					</div>
-					<div class="col s12 m6 l4">
-						<h4><i class="icon-rocket"></i></h4>
-						<p class="caption">Tailor-Made Content: Your stunning website comes complete with beautiful
-							images and text.</p>
-					</div>
-					<div class="col s12 m6 l4">
-						<h4><i class="icon-settings"></i></h4>
-						<p class="caption">Business and Marketing Tools: Customize your experience with market-level
-							visualizations and analytics.</p>
-					</div>
-					<div class="col s12 m6 l4">
-						<h4><i class="icon-umbrella"></i></h4>
-						<p class="caption">Custom Domain Name: We help you choose your own personal domain that fits
-							your company best.</p>
-					</div>
-					<div class="col s12 m6 l4">
-						<h4><i class="icon-compass"></i></h4>
-						<p class="caption">SSL Certified: Secure your website and boost your SEO with an SSL Certified
-							site..</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<!-- Pricing Tables -->
-	<div class="section full-height valign-wrapper">
-		<div class="row valign">
-			<div class="col s12 m10 offset-m1">
-				<div class="row">
-					<div class="col s12 m4">
-						<div class="pricing-table">
-							<div class="pricing-header">
-								<i class="icon-paper-plane"></i>
-								<h4>Graphics Designing</h4>
-								<!-- <div class="price">
->>>>>>> ff975f826dda12d107192d54c2bc62b68cc02441
                         <span class="currency">$</span>
                         <span class="dollars">9</span>
                         <span class="cents">99</span>
@@ -305,7 +191,6 @@
               </div>
             </div>
 
-<<<<<<< HEAD
             <div class="col s12 m4">
               <div class="pricing-table featured">
                 <div class="pricing-header">
@@ -314,19 +199,10 @@
                   </div>
                   <h4>Web Development</h4>
                   <!-- <div class="price">
-=======
-					<div class="col s12 m4">
-						<div class="pricing-table featured">
-							<div class="pricing-header">
-								<i class="icon-plane"></i>
-								<h4>Web Development</h4>
-								<!-- <div class="price">
->>>>>>> ff975f826dda12d107192d54c2bc62b68cc02441
                         <span class="currency">$</span>
                         <span class="dollars">59</span>
                         <span class="cents">99</span>
                       </div> -->
-<<<<<<< HEAD
                 </div>
                 <ul class="pricing-features">
                   <li class="pricing-feature">
@@ -365,147 +241,6 @@
                 </ul>
               </div>
             </div>
-=======
-							</div>
-							<ul class="pricing-features">
-								<li class="pricing-feature"><i class="icon-accept"></i>Upto 5 Webpages</li>
-								<li class="pricing-feature"><i class="icon-accept"></i>Dynamic/Static Website</li>
-								<li class="pricing-feature"><i class="icon-accept"></i>Custom Design</li>
-								<li class="pricing-feature"><i class="icon-accept"></i>Upto 5 Forms</li>
-								<li class="pricing-feature"><i class="icon-accept"></i>Dedicated Content Writer</li>
-								<li class="pricing-feature"><i class="icon-accept"></i>Dedicated Photographer*</li>
-								<li class="pricing-feature"><i class="icon-accept"></i>1 Hour of Client Training</li>
-								<li class="pricing-feature"><i class="icon-accept"></i>Upto 5 Mail Accounts</li>
-								<li class="pricing-feature"><i class="icon-accept"></i>24x7 Support</li>
-								<li class="pricing-feature"><i class="icon-accept"></i>Annual Domain Charges</li>
-								<li class="pricing-feature"><i class="icon-accept"></i>Annual Hosting Charges</li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col s12 m4">
-						<div class="pricing-table">
-							<div class="pricing-header">
-								<i class="icon-rocket"></i>
-								<h4>Social Media Marketing</h4>
-
-							</div>
-							<ul class="pricing-features">
-								<li class="pricing-feature"><i class="icon-accept"></i>8 posts (2 posts per week)</li>
-								<li class="pricing-feature"><i class="icon-accept"></i>Facebook Account Handling</li>
-								<li class="pricing-feature"><i class="icon-accept"></i>Instagram Account Handling</li>
-								<li class="pricing-feature"><i class="icon-accept"></i>Comment Handling</li>
-								<li class="pricing-feature"><i class="icon-accept"></i>Message Handling</li>
-
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class=" button">
-					<a href="pricing.html" target="_blank" class="waves-effect waves-light btn-large">Full Pricing
-						Table</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- <div class="section light full-height">
-		<div class="row">
-			<div class="col s12 m10 offset-m1 center">
-				<h1>blog</h1>
-				<div class="row masonry-grid">
-					<div class="col s12 m6 l4">
-						<div class="card">
-							<div class="card-image">
-								<a href="blog.html"><img src="http://placehold.it/600x400"></a>
-								<span class="card-title">Something Interesting</span>
-							</div>
-						</div>
-					</div>
-					<div class="col s12 m6 l4">
-						<div class="card">
-							<div class="card-image">
-								<a href="blog.html"><img src="http://placehold.it/600x400"></a>
-								<span class="card-title">Another Blog Post</span>
-							</div>
-						</div>
-					</div>
-					<div class="col s12 m6 l4">
-						<div class="card">
-							<div class="card-image">
-								<a href="blog.html"><img src="http://placehold.it/600x400"></a>
-								<span class="card-title">Click Bait Article</span>
-							</div>
-						</div>
-					</div>
-					<div class="col s12 m6 l4">
-						<div class="card">
-							<div class="card-image">
-								<a href="blog.html"><img src="http://placehold.it/600x400"></a>
-								<span class="card-title">Don't Read This!</span>
-							</div>
-						</div>
-					</div>
-					<div class="col s12 m6 l4">
-						<div class="card">
-							<div class="card-image">
-								<a href="blog.html"><img src="http://placehold.it/600x400"></a>
-								<span class="card-title">Why Are You Still Reading?</span>
-							</div>
-						</div>
-					</div>
-					<div class="col s12 m6 l4">
-						<div class="card">
-							<div class="card-image">
-								<a href="blog.html"><img src="http://placehold.it/600x400"></a>
-								<span class="card-title">Good Bye</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<!-- Contact Us -->
-
-
-	<!-- Footer -->
-	<footer class="page-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col s6 m3">
-					<img class="materialize-logo" src="images/goat.icon4-10.png" alt="">
-					<p>Made with love by ScrapeGoat.</p>
-				</div>
-				<div class="col s6 m3">
-					<h5>About</h5>
-					<ul>
-						<li><a href="team.html">Team</a></li>
-						<li><a href="pricing.html">Pricing</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</div>
-				<div class="col s6 m3">
-					<h5>Connect</h5>
-					<ul>
-						<li><a href="contact.html">Community</a></li>
-						<li><a href="contact.html">Subscribe</a></li>
-						<li><a href="contact.html">Email</a></li>
-					</ul>
-				</div>
-				<div class="col s6 m3">
-					<h5>Contact</h5>
-					<ul>
-						<li><a href="https://www.facebook.com/scrapegoatinc" target="_blank">Facebook</a></li>
-						<li><a href="https://www.instagram.com/scrapegoatinc" target="_blank">Instagram</a></li>
-						<li><a href="https://www.twitter.com/scrapegoatinc" target="_blank">Twitter</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
->>>>>>> ff975f826dda12d107192d54c2bc62b68cc02441
 
             <div class="col s12 m4">
               <div class="pricing-table">
@@ -546,21 +281,19 @@
         </div>
       </div>
     </div>
-
-    <!-- <div class="container11">
-      <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
-        <path d="M250,0 C150,200 550,0 500,200 L800,0 L0,0 Z" style="stroke: none; fill:rgba(255, 255, 255, 0.246);"></path>
-      </svg>
-    </div> -->
-    <!-- <div class="square">  </div> -->
   </body>
 
-  <script src="./js/style.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="js/materialize.min.js"></script>
-  <!-- External libraries -->
-  <script src="js/ScrollMagic.min.js"></script>
-
-  <!-- Initialization script -->
-  <script src="js/init.js"></script>
+  <script src="./js/sg.js"></script>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+  ></script>
+  <script type="text/javascript" src="./js/materialize.min.js"></script>
+  <script>
+    $("#a-center").sideNav({
+      menuWidth: 300, // Default is 300
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true
+    });
+  </script>
 </html>
