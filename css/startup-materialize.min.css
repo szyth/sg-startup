@@ -2459,7 +2459,7 @@ nav,
 .divider {
     height: 1px;
     overflow: hidden;
-    background-color: #e0e0e0
+    background-color: #141414
 }
 
 blockquote {
@@ -4205,7 +4205,7 @@ nav ul a span.badge {
 
 nav {
     color: #fff;
-    background-color: #f4b41a;
+    /* background-color: #f4b41a; */
     width: 100%;
     height: 56px;
     line-height: 56px
@@ -9337,6 +9337,19 @@ button.picker__close:focus {
     padding: 20px 0;
     text-align: center
 }
+.pricing-table .pricing-header .dark i {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 80px;
+    padding-left: 5px;
+    margin-left: -40px;
+    font-size: 28px;
+    background-color: #143d59;
+  
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
 
 .pricing-table .pricing-header i {
     position: absolute;
@@ -9346,7 +9359,7 @@ button.picker__close:focus {
     padding-left: 5px;
     margin-left: -40px;
     font-size: 28px;
-    background-color: #143d59;
+    background-color: #f0f0f0;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%)
 }
@@ -11321,7 +11334,7 @@ html {
 }
 
 body {
-    background-color: #143d59;
+    /* background-color: #143d59; */
     color: #eee
 }
 
@@ -11550,7 +11563,7 @@ nav.navbar {
     z-index: 10;
     position: fixed;
     box-shadow: none;
-    background-color: transparent;
+    /* background-color: transparent; */
     transition: box-shadow .3s, background-color .3s
 }
 
@@ -11801,8 +11814,7 @@ nav.navbar ul a:hover {
 #implode-intro .phone-preview-sizer.scrollmagic-end {
     right: calc(((100% - 400px) / 2) - 100px)
 }
-
-.section {
+.section  {
     position: relative;
     padding: 64px 0;
     height: 100%;
@@ -11810,8 +11822,26 @@ nav.navbar ul a:hover {
     background-color: #143d59;
     z-index: 3
 }
+.section .whitee {
+    position: relative;
+    padding: 64px 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: #e4e4e4;
+    color: rgb(0, 0, 0);
+    z-index: 3
+}
 
-.section.white {
+.section .whiteee {
+    position: relative;
+    padding: 64px 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    color: rgb(0, 0, 0);
+    z-index: 3
+}
+.section .white {
     color: #444
 }
 
