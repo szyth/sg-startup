@@ -135,5 +135,11 @@ h6.bold {
 
 /* END - WHAT WE DO SECTION */
 
+/* FOOTER */
+.footer-bg{
+  background-color: #292929;
+}
+/* END : FOOTER */
+
 @media (max-width: 768px) {
 }
