@@ -1,5 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Sen&display=swap");
 
+/* COMMON */
+.section {
+  max-width: 100vw !important;
+  overflow: hidden !important;
+}
+.section-title {
+  font-weight: 300;
+  margin: 5rem;
+  font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 768px) {
+  .section-title {
+    margin: 2rem;
+    font-size: 2.4rem;
+  }
+}
 /* NAVBAR SCROLL CHANGES */
 .ht {
   background-color: #f4b41a !important;
@@ -57,56 +73,10 @@ li .user-view {
 /* END :SIDE NAV */
 
 /* WHY SCRAPEGOAT SECTION */
-.section {
-  background-color: rgb(191, 253, 201);
-}
-.section-title {
-  font-weight: 300;
-  margin: 5rem;
-  font-family: "Montserrat", sans-serif;
-}
-.card-panel {
-  background-color: #222222 !important;
-  padding: 4rem;
-  /* margin: 0 !important; */
-}
-.section-card :hover {
-  /* transform: translate(-30px, -30px);
-  transition: 0.25s ease; */
-  background-color: rgb(255, 226, 65);
-}
-.section-card {
-  font-size: larger;
-  font-weight: 100 !important;
-  font-family: "Montserrat", sans-serif;
-  background-color: #000000 !important;
-  color: #ffffff;
-
-  /* font-family: "Open Sans", sans-serif; */
-}
-.section-card.card1 {
-  clip-path: polygon(7% 5%, 85% 0%, 87% 90%, 0 85%);
-}
-.section-card.card2 {
-  clip-path: polygon(5% 1%, 90% 3%, 92% 93%, 0 85%);
-}
-.section-card.card3 {
-  clip-path: polygon(0% 7%, 90% 0%, 82% 93%, 0 85%);
-}
-
-.border-card {
-  border: 2px dashed #000000;
-}
-.border-card-dashed {
-  /* position: absolute; */
-  border: 2px dashed #000000;
-}
-.border-card :hover {
-  transform: translate(-30px, -30px);
-  transition: 0.25s ease;
-  border: 2px solid #f4b41a;
-
-  /* transition: cubic-bezier(0.165, 0.84, 0.44, 1) 400ms; */
+.whySection {
+  /* background-color: rgb(191, 253, 201); */
+  background-image: linear-gradient(to right, #f4b31ac4, rgb(255, 255, 255));
+  padding-bottom: 3rem;
 }
 
 .card {
@@ -119,11 +89,6 @@ li .user-view {
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
 }
-@media (max-width: 768px) {
-  .card {
-    margin: 3rem;
-  }
-}
 
 .card:hover {
   -ms-transform: scale(1.01, 1.01);
@@ -133,11 +98,6 @@ li .user-view {
   transform: scale(1.01, 1.01);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.highlight {
-  font-weight: bold;
-  color: rgb(0, 235, 66);
-}
-
 .shadow1 {
   box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
     0 15px 40px rgba(4, 7, 17, 0.2);
@@ -146,7 +106,7 @@ li .user-view {
 .material-icons.custom {
   font-size: 9rem;
   /* color: #ffc400bb; */
-  background: linear-gradient(to right, #3cc194, rgba(109, 109, 109, 0.486));
+  background: linear-gradient(to right, #2e2e2e, rgba(109, 109, 109, 0.486));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: translateY(-20px);
@@ -155,11 +115,25 @@ h6 {
   font-size: larger;
   line-height: 1.7rem;
 }
-h6.bold{
+h6.bold {
   font-weight: 600 !important;
   color: #242424;
 }
 /* END - WHY SCRAPEGOAT SECTION */
+
+/* WHAT WE DO SECTION */
+.section-bg {
+  /* background-color: #dbdbdb; */
+  background: url("../images/bg-vector2.png"), #ecfad7;
+}
+.svg {
+  background-color: rgba(255, 255, 255, 0);
+}
+.svg-text {
+  font-family: "Sen", sans-serif;
+}
+
+/* END - WHAT WE DO SECTION */
 
 @media (max-width: 768px) {
 }
