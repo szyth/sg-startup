@@ -124,7 +124,7 @@ h6.bold {
 /* WHAT WE DO SECTION */
 .section-bg {
   /* background-color: #dbdbdb; */
-  background: url("../images/bg-vector2.png"), #ecfad7;
+  background: url("../images/bg-vector2.png"), #f1f1f1;
 }
 .svg {
   background-color: rgba(255, 255, 255, 0);
@@ -136,10 +136,131 @@ h6.bold {
 /* END - WHAT WE DO SECTION */
 
 /* FOOTER */
-.footer-bg{
+.footer-bg {
   background-color: #292929;
 }
 /* END : FOOTER */
+
+/* TEAM.HTML */
+
+.team h3 {
+  display: inline-block;
+  margin-top: 0;
+  padding-bottom: 8px;
+  line-height: 3.5rem;
+}
+
+.team p.caption {
+  color: #888;
+  margin-bottom: 40px;
+}
+
+.team .divider {
+  margin: 40px 0 80px;
+}
+
+.team .avatar-wrapper {
+  display: block;
+  width: 80%;
+  max-width: 150px;
+  margin: 0 auto 30px;
+}
+
+.team .avatar-wrapper:hover::after {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.team .avatar-wrapper::after {
+  border-width: 4px;
+}
+
+.team .avatar-wrapper .avatar {
+  width: 100%;
+  padding-bottom: 100%;
+}
+
+.team .avatar-wrapper .avatar img {
+  width: 100%;
+}
+
+.team .avatar-wrapper .avatar::after {
+  border-width: 10px;
+}
+
+.team .avatar-name {
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+}
+
+.team .avatar-name .name {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.team .avatar-name .title {
+  display: block;
+  font-weight: 300;
+  font-size: 14px;
+  color: #888;
+}
+
+@media only screen and (max-width: 600px) {
+  .team .avatar-wrapper {
+    margin: 0 auto;
+  }
+
+  .team .avatar-name {
+    margin-bottom: 40px;
+  }
+}
+.avatar-wrapper .avatar {
+  border-radius: 50%;
+}
+
+.avatar-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.avatar-wrapper .avatar {
+  display: block;
+  overflow: hidden;
+  height: 50px;
+  width: 50px;
+}
+
+.avatar-wrapper .avatar img {
+  width: 50px;
+}
+
+.avatar-wrapper::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  transition: border-color 0.15s, -webkit-transform 0.15s;
+  transition: transform 0.15s, border-color 0.15s;
+  transition: transform 0.15s, border-color 0.15s, -webkit-transform 0.15s;
+}
+
+.avatar-wrapper:hover::after {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  border-color: #f4b41a;
+  transition: border-color 0.2s,
+    -webkit-transform 0.2s cubic-bezier(0.06, 0.59, 0.24, 1.55);
+  transition: transform 0.2s cubic-bezier(0.06, 0.59, 0.24, 1.55),
+    border-color 0.2s;
+  transition: transform 0.2s cubic-bezier(0.06, 0.59, 0.24, 1.55),
+    border-color 0.2s,
+    -webkit-transform 0.2s cubic-bezier(0.06, 0.59, 0.24, 1.55);
+}
 
 @media (max-width: 768px) {
 }
